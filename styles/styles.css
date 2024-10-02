@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: "Remskii-Eng";
+    src: url('../fonts/RemskiiFont/remskii_eng-regular-webfont.woff2') format('woff2'),
+         url('../fonts/RemskiiFont/remskii_eng-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Remskii-Script";
+    src: url('../fonts/RemskiiFont/remskii_script-regular-webfont.woff2') format('woff2'),
+         url('../fonts/RemskiiFont/remskii_script-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TEST";
+    
+}
+
+h1 {
+    font-family: "Remskii-Script", sans-serif;
+    font-size: 3rem;
+}
