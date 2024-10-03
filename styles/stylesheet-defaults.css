@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Remskii-Eng";
+    src: url('../fonts/RemskiiFont/remskii_eng-regular-webfont.woff2') format('woff2'),
+         url('../fonts/RemskiiFont/remskii_eng-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Remskii-Script";
+    src: url('../fonts/RemskiiFont/remskii_script-regular-webfont.woff2') format('woff2'),
+         url('../fonts/RemskiiFont/remskii_script-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*
+//FONT: Source Code Pro, use for body
+//<weight>: Use a value from 200 to 900   
+.source-code-pro-normal {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+//FONT: Quicksand, use for body
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+//FONT: Lora, use for titles
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+:root {
+    --background-color: #0d000e;
+    --text-color-main: #f7fbef;
+    --text-color-special: #bf1fff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Source Code Pro", monospace;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color-main);
+  }
+  
+  h1 {
+      font-family: "Remskii-eng";
+      color: var(--text-color-special);
+  }

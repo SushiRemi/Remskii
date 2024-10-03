@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic meta information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/index-styles.css">
     <title>Remskii</title>
-    <style media="screen, print">
-        @font-face {
-        font-family: "Remskii-Eng";
-        src: 
-        local("fonts/Remskii_eng-Regular.ttf"),
-        url("https://github.com/SushiRemi/Remskii-Website/blob/main/fonts/Remskii_eng-Regular.ttf"),
-        format("truetype");
-    }
-    </style>
+
+    <!-- Connect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <navbar></navbar>
+        <navbar>
+            <a href="./music.html">music</a>
+            <a href="./games.html">games</a>
+            <div id="header-title-box">
+                <!--NOTE: Javascript task: make the letters randomly change until hovered over-->
+                <a href="./index.html"><h1 id="header-title">remskii</h1></a>
+            </div>
+            <a href="./about.html">about</a>
+            <a href="./shop.html">shop</a>
+        </navbar>
     </header>
-    <h1>SLFIHasfdsafD:SHF</h1>
+    
+    
+    <div id="crt-border-glow">
+        <div id="crt-border"></div>
+    </div>
+    
+    <section id="welcome-section">
+        <h1 id="intro">hi, i'm remskii.</h1>
+        <p>[Everybody's favorite nobody, according to somebody.]</p>
+    </section>
+    <section id="mirror-section">
+        <div id="mirror">
+            <a href="./mirror.html">
+                <div id="mirror-clickbox"></div>
+            </a>
+        </div>
+    </section>
+    <div id="bottom-space"></div>
+    
 </body>
 </html>
