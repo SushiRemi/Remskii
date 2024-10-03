@@ -49,7 +49,7 @@ html::-webkit-scrollbar {
 #crt-border {
   position: fixed;
   top: calc(-5vh + 70px);
-  border: calc(3px + (3vh + 3vw)) solid rgba(0, 0, 0, 0.5);
+  border: calc(3px + (3vh + 3vw)) solid rgba(0, 0, 0, 1);
   border-radius: calc(20px + 4vh + 4vw);
   height: calc(110vh - 70px);
   width: 105vw;
@@ -137,6 +137,14 @@ navbar a:hover {
   text-align: center;
   height: calc(100vh - 70px);
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#welcome-shorten {
+  width: 90%;
+  
 }
 
 #intro {
