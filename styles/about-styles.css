@@ -55,6 +55,7 @@ html::-webkit-scrollbar {
   width: 105vw;
   background-color: transparent;
   left: -2.5vw;
+  z-index: 5;
 }
 
 #crt-border-glow {
@@ -66,6 +67,7 @@ html::-webkit-scrollbar {
   background-color: transparent;
   margin: 0 auto;
   align-items: center;
+  z-index: 6;
 }
 
 body {
@@ -84,7 +86,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 navbar {
@@ -95,6 +97,7 @@ navbar {
   border-bottom: 3px solid var(--text-color-main);
   height: 70px;
   background-color: black;
+  z-index: 10;
 }
 
 #header-title-box {
@@ -108,7 +111,7 @@ navbar {
 navbar a{
   transition: 0.5s;
   font-family: "Remskii-eng";
-  font-size: calc(15px + 1vw + 1vh);
+  font-size: calc(15px + 1.8vw);
   text-decoration: none;
   text-align: center;
   color: var(--text-color-main);
@@ -130,4 +133,96 @@ navbar a:hover {
   font-family: "Remskii-eng";
   font-size: 120%;
   margin-top: 4%;
+}
+
+#navbar-buffer {
+  width: 100%;
+  height: 70px;
+}
+
+#images-container {
+  position: fixed;
+  background-color: var(--background-color);
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+img {
+  object-fit: fill;
+  margin: 0 auto;
+  width: 100%;
+  transform: translateY(calc(-15vh + 5vw));
+}
+
+@media only screen and (max-width: 750px) {
+  img {
+    width: 200%;
+    transform: translateX(-40vw) translateY(-10vh);
+  }
+}
+
+.main-divider {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  -webkit-clip-path: polygon(0 63%, 100% 30%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 63%, 100% 30%, 100% 100%, 0% 100%);
+  background-color: var(--background-color);
+  z-index: -1;
+  top: calc(-20vh + 20vw);
+}
+
+#text-section {
+  position: absolute;
+  top: 90vh;
+  width: 100vw;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--background-color);
+}
+
+#title-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -13vh;
+  margin-bottom: 2vh;
+}
+
+h2 {
+  text-align: right;
+  font-weight: normal;
+  font-size: calc(15px + 2.2rem);
+  color: var(--text-color-main);
+}
+
+#text-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+h4 {
+  color: var(--text-color-special);
+  font-size: calc(20px + 0.3rem);
+}
+
+p {
+  margin-bottom: 2vh;
+  color: var(--text-color-main);
+  font-size: calc(14px + 0.3rem);
+}
+
+#final-question {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.coded {
+  font-family: "Remskii-Script";
+  transform: translateY(6px);
 }

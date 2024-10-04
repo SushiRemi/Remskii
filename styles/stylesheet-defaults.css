@@ -139,7 +139,7 @@ align-items: center;
 navbar a{
 transition: 0.5s;
 font-family: "Remskii-eng";
-font-size: calc(15px + 1vw + 1vh);
+font-size: calc(15px + 1.8vw);
 text-decoration: none;
 text-align: center;
 color: var(--text-color-main);
