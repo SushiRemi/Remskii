@@ -1,0 +1,10 @@
+#project-FILFA {
+    width: 1000px;
+    height: 1000px;
+    
+    background-image: url(PorterPic.jpg);
+    background-size: cover;
+    border: 4px solid orange;
+
+    
+  }

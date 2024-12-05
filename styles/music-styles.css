@@ -131,3 +131,85 @@ navbar a:hover {
   font-size: 120%;
   margin-top: 4%;
 }
+
+#title-section {
+  height: 8rem;
+  width: 100vw;
+  margin-top: calc(6vh + (3px + (3vh + 3vw)));
+  margin-bottom: 3vh;
+  display: flex;
+}
+
+#project-title {
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+#project-title h1 {
+  margin: 0 auto;
+  font-size: calc(7rem + 12px);
+}
+
+#project-section {
+  margin: 0 auto;
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 2vh;
+}
+
+.project-cover{
+  max-width: 1000px;
+  min-width: 300px;
+  max-height: 1000px;
+  min-height: 300px;
+  width: 30vw;
+  height: 30vw;
+}
+
+.project-cover a{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.project-cover img{
+  width: 100%;
+  border: 4px solid gray;
+}
+
+#project-FILFA{
+  background-image: url('../images/aspect-love-animated.gif');
+  background-size: 100%;
+  transition: 0.3s;
+}
+
+#project-FILFA:hover {
+  background-image: url('../images/FILFA-cover-art.jpg');
+  transition: 0.3s;
+}
+
+#project-LFTSS{
+  background-image: url('../images/aspect-sacrifice-animated.gif');
+  background-size: 100%;
+  transition: 0.3s;
+}
+
+#project-LFTSS:hover {
+  background-image: url('../images/LFTSS-cover-art.jpg');
+  transition: 0.3s;
+}
+
+#project-GOI{
+  background-image: url('../images/aspect-impermanence-animated.gif');
+  background-size: 100%;
+  transition: 0.3s;
+}
+
+#project-GOI:hover {
+  background-image: url('../images/GOI-cover-art.jpg');
+  transition: 0.3s;
+}
+
