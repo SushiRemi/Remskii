@@ -67,7 +67,8 @@ html::-webkit-scrollbar {
   background-color: transparent;
   margin: 0 auto;
   align-items: center;
-  z-index: 6;
+  /* z-index: 6; */
+  pointer-events: none;
 }
 
 body {
