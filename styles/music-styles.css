@@ -87,6 +87,7 @@ header {
   z-index: 1;
 }
 
+
 navbar {
   width: 100%;
   display: flex;
@@ -103,6 +104,10 @@ navbar {
   width: 20%;
   justify-content: center;
   align-items: center;
+}
+
+#header-title {
+  transition: 0.3s;
 }
 
 navbar a{

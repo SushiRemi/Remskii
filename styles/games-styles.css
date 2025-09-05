@@ -97,6 +97,10 @@ navbar {
   background-color: black;
 }
 
+#header-title {
+  transition: 0.3s;
+}
+
 #header-title-box {
   display: flex;
   height: 100%;
