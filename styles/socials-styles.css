@@ -139,28 +139,40 @@ navbar a:hover {
 
 #socials-section{
   margin: 0 auto;
+  margin-top: 250px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   row-gap: 2vh;
-}
-.socials-icon{
-  max-width: 1000px;
-  min-width: 300px;
-  max-height: 1000px;
-  min-height: 300px;
-  width: 30vw;
-  height: 30vw;
+  
 }
 
-.socials-icon a{
-  width: 100%;
-  height: 100%;
-  display: inline-block
+.socials-link-column{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-#socials-icon-youtube{
+.socials-link-column a{
+  display: inline-block;
+  width: 50%
+}
+
+#socials-link-youtube{
   background-image: url('../images/GOI-cover-art.jpg');
   background-size: 100%;
+}
+
+.socials-link-text{
+  font-size: calc(22px + 2vw);
+  text-decoration: none;
+  color: white;
+}
+
+.socials-link-text:hover {
+  color: var(--text-color-special);
 }

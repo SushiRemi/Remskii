@@ -159,6 +159,7 @@ navbar a:hover {
 
 #project-section {
   margin: 0 auto;
+  margin-top: calc(90px + 15vh);
   width: 95vw;
   display: flex;
   flex-wrap: wrap;
