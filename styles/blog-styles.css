@@ -136,3 +136,34 @@ navbar a:hover {
   font-size: 120%;
   margin-top: 4%;
 }
+
+#blog {
+  margin: 80px;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-post-body{
+  display: flex;
+  flex-direction: row;
+  gap: 2.5%;
+}
+
+.blog-post-image {
+  width: 45%;
+}
+
+.blog-post-text {
+  font-size: calc(10px + 1vw);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-post-title{
+  font-size: calc(30px + 1vw);
+}
+
+.blog-post-date {
+  font-size: calc(15px + 0.5vw);
+}
